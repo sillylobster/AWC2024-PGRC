@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/landing.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; Center content horizontally
+}
+.login-card {
+    background-color: white;
+    width: 600px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-left: auto;
+}
+.login-card .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-card .btn-primary {
+    width: 100%;
+    background-color: #109A61; 
+    border-color: #109A61;
+}
+.login-card .card-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0c7044;
+}
+
+.login-card .btn-primary:hover, .btn-primary:active {
+    background-color: #0c7044; 
+    border-color: #0c7044;
+}
+.login-card .forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.login-card .register {
+    text-align: center;
+    margin-top: 1rem;
+} 
+
+#togglePassword {
+    border-color: #ced4da;
+  }
+

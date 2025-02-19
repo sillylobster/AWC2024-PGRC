@@ -1,0 +1,30 @@
+.navbar-nav .nav-link {
+  color: white !important; 
+}
+
+.btn-submit {
+    background-color: #109A61 !important; 
+    border-color: #109A61 !important; 
+    
+  }
+  
+  .btn-submit:hover {
+    background-color: #0c7044 !important;
+    border-color: #0c7044 !important; 
+  }
+
+  .bg-submit {
+    background-color: #109A61 !important; 
+
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .navbar-nav.ms-auto {
+    flex-grow: 0;
+  }
+
+ 

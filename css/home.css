@@ -1,0 +1,143 @@
+.navbar {
+  background-color: #2A5846 !important;
+}
+
+.navbar-nav .nav-link .btn-submit {
+  background-color: #109A61 !important;
+  border-color: #109A61 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-toggler {
+  border-color: white !important; 
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); 
+}
+
+.green-div {
+  background-color: #2A5846;
+  height: 70vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+
+.white-div {
+  background-color: #ffffff; 
+  height: 50vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.landing-text {
+  color: white;
+  text-align: left; 
+  max-width: 50%;
+}
+
+.landing-text3 {
+  color: white;
+  text-align: left; /* Align text to the left */
+  max-width: 50%; /* Take up to 50% of parent width */
+  flex-grow: 1
+}
+
+.landing-text2 {
+  color: #2A5846; /* Adjusted text color */
+  text-align: right; /* Align text to the right */
+  max-width: 50%; /* Take up to 50% of parent width */
+}
+
+.landing-text h1,
+.landing-text2 h1 {
+  font-size: 3rem; 
+  line-height: 1.3;
+}
+
+.landing-text3 h1 {
+  font-size: 5rem; 
+
+}
+
+.description {
+  font-size: 1rem; /* Adjust font size for description */
+  margin-top: 20px; /* Add margin top for spacing */
+}
+
+.meals-image-container {
+  text-align: right; /* Align image to the right */
+  max-width: 50%; /* Take up to 50% of parent width */
+}
+
+.book-image-container {
+  text-align: left; /* Align image to the left */
+  max-width: 50%; /* Take up to 50% of parent width */
+}
+
+.meals {
+  max-width: 100%; /* Ensure images maintain their original dimensions */
+  height: auto; /* Ensure images maintain their original dimensions */
+}
+
+.book {
+  max-width: 100%; /* Ensure images maintain their original dimensions */
+  height: auto; /* Ensure images maintain their original dimensions */
+}
+
+.navbar .btn-submit {
+  border: #109A61;
+  background-color: #109A61;
+  color: #fff;
+}
+
+.navbar .btn-submit:hover {
+  background-color: #0c7044;
+  color: #fff;
+}
+
+.navbar .btn-submit2 {
+  border: #fff;
+  background-color: #fff;
+  color: #109A61;
+}
+
+.navbar .btn-submit2:hover {
+  background-color: #e0e0e0; /* Darker background color on hover */
+  border-color: #e0e0e0; /* Darker border color on hover */
+}
+
+.logo {
+  width: 250;
+  height: 250px;
+
+}
+
+.landing-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Optional: Add margin if needed */
+}
+
+.description2 {
+  font-size: 2rem; /* Adjust font size for description */
+  margin-top: 5px; /* Add margin top for spacing */
+}
